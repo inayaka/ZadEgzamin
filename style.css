@@ -1,0 +1,123 @@
+
+body{
+    background-color: rgba(182, 156, 146, 0.904);
+    margin: 270;
+    font-family: Cambria;
+}
+
+body > header{
+    background-color: rgba(114, 81, 79, 0.63);
+    border: 7px solid rgb(118, 119, 145);
+    border-radius: 2%;
+    text-align: center;
+}
+h1{
+    color:rgb(37, 56, 88);
+    font-style:unset;
+    font-size:xx-large;
+    text-align: center;
+}
+
+h2{
+    color:rgb(37, 56, 88);
+    /* font-style: oblique; */
+    font-size:xx-large;
+    text-align: center;
+}
+
+h3{
+    color:rgb(37, 56, 88);
+    font-style:initial;
+    font-size:larger;
+    text-align: left;
+    padding-top: 30px;
+}
+.wstep{
+    text-align: justify;
+    margin: 27px;
+    font-weight: bold;
+    color:rgb(35, 46, 66);
+}
+
+nav ul {
+       background-color: rgba(88, 88, 124, 0.301);
+    border-top:none;
+    border-radius: 11px;
+    list-style-type: none;
+    padding: 11px;
+    margin: 27px;
+    display: flex;
+    justify-content:space-evenly;    
+}
+
+nav ul li {
+    margin: 2px;
+    border: 2px solid rgba(59, 50, 92, 0.637);
+    padding: 7px 18px;
+    background-color: rgb(160, 137, 109);        
+    color: rgb(20, 43, 87);       
+    border-radius: 11px;        
+    cursor:pointer;        
+    transition: .5s;
+}
+  
+nav ul li:hover {
+    border-color: rgb(191, 196, 120);
+    background-color: rgba(182, 154, 102, 0.637);
+    color:rgb(88, 41, 78);
+}
+
+nav ul li:active{
+    border-color: rgb(20, 90, 97);
+    background-color:rgb(182, 144, 73);
+    transition: none;
+}
+
+.carousel article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel article img{
+    max-width: 70%;
+    border-radius: 34px;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.carousel article div{
+    flex: none;
+    background-color: rgb(223, 211, 203);
+    padding: .5em .5em;
+    cursor: pointer;
+    text-align: center;
+    color:rgb(21, 81, 116);
+    font-weight:900;
+    font-size: xx-large;
+    border: 4px double rgb(63, 60, 95);
+    border-radius: 11px;
+}
+  
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+.blockquote{
+font-size: 1.4em;
+width:60%;
+margin:50px auto;
+font-family:Open Sans;
+font-style:italic;
+color: #4b0c0c;
+padding:1.2em 30px 1.2em 75px;
+border-left:8px solid #4a6680 ;
+line-height:1.6;
+position: relative;
+background:#bfc4ca;
+}
+  
+.blockquote span{
+display:block;
+color:#b66666;
+font-style: normal;
+font-weight: bold;
+margin-top:1em;
+}
